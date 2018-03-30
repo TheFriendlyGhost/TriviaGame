@@ -1,0 +1,51 @@
+body{
+	background-image: url(../images/conpent.png)
+}
+
+#game{
+	height: 500px
+}
+
+.answers, .correct{
+	visibility: hidden;
+	font-family: 'Patua One', cursive;
+}
+
+#correctAnswer{
+	font-weight: bold;
+}
+
+#layout{
+	margin-top: 50px;
+}
+
+#title{
+	font-family: 'Faster One', cursive;
+}
+
+#title,#question{
+	margin-bottom: 10px;
+}
+
+#categories{
+	margin-bottom: 10px;
+}
+
+#startBtn{
+	border: 3px solid blue;
+}
+
+#timing,#question,#startBtn{
+	visibility: hidden;
+	font-family: 'Patua One', cursive;
+}
+
+@media (hover: hover) {
+  #startBtn,.answerBtn:hover {
+    background: pink;
+  }
+
+  .answerBtn:hover {
+  	border: 3px solid blue;
+  }
+}

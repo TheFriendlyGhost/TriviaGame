@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  	crossorigin="anonymous"></script>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Faster+One|Patua+One" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="layout">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 rounded bg-danger" id="game">
+				<div class="row" id="title">
+					<div class="col-md-12">
+						<h1 class="text-center">Some Sort of Trivia</h1>
+					</div>	
+				</div>
+
+				<div class="row" id="categories">
+					<div class="col-md-12 pt-1 text-center">
+						<button class="btn typeBtn btn-primary" id="GK">General Knowledge</button>
+						<button class="btn typeBtn btn-primary" id="SP">Sports</button>
+						<button class="btn typeBtn btn-primary" id="VG">Video Games</button>
+						<button class="btn typeBtn btn-primary" id="FM">Film</button>
+					</div>
+	
+				</div>
+
+				<div class="row" id="start">
+					<div class="col-md-2"></div>
+					<div class="col-md-8 pt-1" id="startBtn">
+						<h3 class="text-center">Start</h3>
+					</div>
+					<div class="col-md-2"></div>
+	
+				</div>
+
+				<div class="row" id="time">
+					<div class="col-md-12">
+						<h3 class="text-center" id="timing"></h3>
+					</div>	
+				</div>
+
+				<div class="row" id="question">
+					<div class="col-md-12">
+						<h3 class="text-center" id="questionField"></h3>
+					</div>	
+				</div>
+				
+				<div class="row correct">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-center" id="correctAnswer"></h3>
+					</div>
+					<div class="col-md-2"></div>	
+				</div>
+
+				<div class="row answers">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-center answerBtn" id="answer1"></h3>
+					</div>
+					<div class="col-md-2"></div>	
+				</div>
+
+				<div class="row answers">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-center answerBtn" id="answer2"></h3>
+					</div>
+					<div class="col-md-2"></div>	
+				</div>
+
+				<div class="row answers">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-center answerBtn" id="answer3"></h3>
+					</div>
+					<div class="col-md-2"></div>	
+				</div>
+
+				<div class="row answers">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-center answerBtn" id="answer4"></h3>
+					</div>
+					<div class="col-md-2"></div>	
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+		<script src="assets/javascript/game.js"></script>
+	</div>
+</body>
+</html>
